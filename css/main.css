@@ -83,7 +83,7 @@ h4 {
 
 .hero {
   clear: both;
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: auto;
   height: 600px;
@@ -153,7 +153,7 @@ h4 {
   background-repeat: no-repeat;
   background-color: #f7f2eb;
   height: 550px;
-  margin: 0;
+  margin: auto;
   padding: 35px 685px 10px 150px;
 }
 
@@ -181,5 +181,5 @@ h4 {
   color: #f7f2eb;
   background-color: #30436c;
   width: auto;
-  margin: 0;
+  margin: auto;
 }
