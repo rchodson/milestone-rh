@@ -1,33 +1,85 @@
+/*** STANDARD ELEMENTS ***/
+
+body {
+  font-size: 62.5%;   /** SETS BASE FONT SIZE TO 10px **/
+}
+
+p {
+  font-family: 'Esteban', serif;
+  font-size: 1.8em;
+  line-height: 1.85em;
+  color: #30436c;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #f9a91a;
+}
+
+h2 {
+  color: #f7f2eb;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.2em;
+  font-variant: small-caps;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  color: #22458c;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.8em;
+  margin: 0 0 10px 0;
+}
+
+h4 {
+  color: #22458c;
+  font-family: 'Esteban', serif;
+  font-size: 2.2em;
+}
+
+
+/** STRUCTURAL STUFF IN ORDER **/
+
+/** HEADER **/
+
 .head {
   width: auto;
-  height: 100px;
+  height: 85px;
   background-color: #30436c;
   font-family: 'Fjalla One', sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 15px;
 }
 
 .logo img {
   float: left;
+  height: 65px;
+  width: 65px;
 }
 
 .logo p {
   color: #f7f2eb;
   float: left;
-  font-size: 32px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: inherit;
+  font-size: 2.2em;
 }
 
-.navlinks ul, .navlinks li, .navlinks a {
-  text-decoration: none;
+.navlinks li {
   list-style-type: none;
-  padding: 10px 10px 0 10px;
+  padding: 18px 15px 0 10px;
   margin: 0;
   float: right;
   color: #f7f2eb;
-  font-size: 32px;
-  font-variant: small-caps;
+  font-size: 2.2em;
 }
+
+/** HERO **/
 
 .hero {
   clear: both;
@@ -43,7 +95,7 @@
 
 .hero h1 {
   font-family: 'Esteban', serif;
-  font-size: 75px;
+  font-size: 7.5em;
   color: #22458c;
   text-align: center;
   padding-top: 75px;
@@ -54,41 +106,7 @@
   color: #f9a91a;
 }
 
-
-h2 {
-  color: #f7f2eb;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 32px;
-  font-variant: small-caps;
-  text-align: center;
-  margin: 0;
-}
-
-h3 {
-  color: #22458c;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 30px;
-  margin: 0 0 20px 0;
-}
-
-h4 {
-  color: #22458c;
-  font-family: 'Esteban', serif;
-  font-size: 24px;
-}
-
-a {
-  font-weight: bold;
-  text-decoration: none;
-  color: inherit;
-}
-
-p {
-  font-family: 'Esteban', serif;
-  font-size: 21px;
-  line-height: 32px;
-  color: #30436c;
-}
+/** SECTIONS, BEGINNING WITH PORTFOLIO **/
 
 #portfolio, #contact {
   text-align: center;
@@ -105,7 +123,7 @@ p {
   text-align: left;
   display: inline-block;
   margin: auto;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .contain-section img {
@@ -127,6 +145,8 @@ p {
   float: right;
 }
 
+/** ABOUT **/
+
 .bio {
   background-image: url('../img/lemonwater.png');
   background-position: right;
@@ -136,6 +156,8 @@ p {
   margin: 0;
   padding: 35px 685px 10px 150px;
 }
+
+/** CONTACT **/
 
 .contain-contact {
   width: 1400px;
@@ -155,7 +177,7 @@ p {
   clear: both;
   text-align: center;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 12px;
+  font-size: 1.2em;
   color: #f7f2eb;
   background-color: #30436c;
   width: auto;
