@@ -2,6 +2,7 @@
 
 body {
   font-size: 62.5%;   /** SETS BASE FONT SIZE TO 10px **/
+  width: fit-content;
 }
 
 p {
